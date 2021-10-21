@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textColorContrasted" format="color" />
+    <attr name="iconColorContrasted" format="color" />
+    <attr name="iconColorRegular" format="color" />
+    <attr name="dialogBackground" format="color" />
+    <attr name="popupMenuBackground" format="color" />
+</resources>

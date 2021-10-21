@@ -1,0 +1,5 @@
+include ':app'
+rootProject.name = "Mijote"
+include ':lib'
+include ':lib'
+include ':lib'

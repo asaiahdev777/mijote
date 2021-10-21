@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Mijote</string>
+    <string name="welcomeExclamation">Welcome, %s!</string>
+    <string name="more">More</string>
+    <string name="loadingWordsEllipsis">Loading words…</string>
+    <string name="loadingGameEllipsis">Loading game…</string>
+    <string name="numberPeriod">%d.</string>
+    <string name="word">Word</string>
+    <string name="newWord">New word</string>
+    <string name="deleteAll">Delete all</string>
+    <string name="includeAll">Include all</string>
+    <string name="excludeAll">Exclude all</string>
+    <string name="correct">Correct</string>
+    <string name="stats">Stats</string>
+    <string name="plusN">+%d</string>
+    <string name="minusN">-%d</string>
+    <string name="nSlashNDone">%d/%d done</string>
+    <string name="nWords">%d words</string>
+
+
+    <string name="hurryTime">Hurry up! Time\'s running out! 😉</string>
+
+    <string name="yourSuperSmart">Your super smart! 😀</string>
+    <string name="youCanDoIt">You can do it!</string>
+    <string name="keepGoing">Keep going!</string>
+    <string name="yourTheBest">Your the best!</string>
+    <string name="thisIsEasy">This is easy!</string>
+    <string name="edit">Edit</string>
+    <string name="game">Game</string>
+    <string name="delete">Delete</string>
+    <string name="deleteWordPrompt">Word \"%s\" will be deleted.</string>
+    <string name="deleteAllWordsPrompt">Delete all words?</string>
+    <string name="nightMode">Night mode</string>
+    <string name="congrats">Congrats!</string>
+    <string name="oneHundred">100</string>
+    <string name="wrong">Wrong</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="difficult">Difficult</string>
+    <string name="restart">Restart</string>
+</resources>

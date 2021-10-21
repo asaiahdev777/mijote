@@ -1,0 +1,70 @@
+<resources>
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="editTextStyle">@style/EditTextStyle</item>
+        <item name="android:editTextStyle">@style/EditTextStyle</item>
+
+        <item name="popupMenuStyle">@style/PopupMenuStyle</item>
+        <item name="android:popupMenuStyle">@style/PopupMenuStyle</item>
+
+        <item name="alertDialogStyle">@style/AlertDialogStyle</item>
+        <item name="android:alertDialogStyle">@style/AlertDialogStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogStyle</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogStyle</item>
+
+        <item name="actionOverflowMenuStyle">@style/PopupMenuStyle</item>
+        <item name="android:actionOverflowMenuStyle">@style/PopupMenuStyle</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowAnimationStyle">@style/RecreateTransition</item>
+    </style>
+
+    <style name="ActivityTheme.Primary.Base.Light" parent="AppTheme">
+        <item name="colorPrimary">#1E90FF</item>
+        <item name="colorPrimaryDark">#5F9EA0</item>
+        <item name="colorAccent">#03DAC5</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="iconColorRegular">@android:color/black</item>
+        <item name="textColorContrasted">@android:color/white</item>
+        <item name="iconColorContrasted">@android:color/white</item>
+        <item name="dialogBackground">@android:color/white</item>
+        <item name="popupMenuBackground">#F5F5F5</item>
+    </style>
+
+    <style name="ActivityTheme.Primary.Base.Dark" parent="AppTheme">
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#5F9EA0</item>
+        <item name="colorAccent">#03DAC5</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="iconColorRegular">@android:color/black</item>
+        <item name="textColorContrasted">@android:color/white</item>
+        <item name="iconColorContrasted">@android:color/white</item>
+        <item name="dialogBackground">@android:color/black</item>
+        <item name="popupMenuBackground">@android:color/black</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">?android:textColor</item>
+    </style>
+
+    <style name="PopupMenuStyle" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:popupBackground">?attr/popupMenuBackground</item>
+    </style>
+
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">?attr/dialogBackground</item>
+    </style>
+
+    <style name="RecreateTransition">
+        <item name="android:windowEnterAnimation">@anim/anim_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_fade_out</item>
+    </style>
+
+</resources>
